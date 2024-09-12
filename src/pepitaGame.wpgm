@@ -8,11 +8,10 @@ program PepitaGame {
 	game.title("Pepita")
 	game.height(10)
 	game.width(10)
+	//game.onTick(2000, "movimiento", {manzana.mover()}) Cambiar manzana de lugar infinitas veces.
 	game.boardGround("fondo2.jpg")
-
-	// Hacer los arreglos para que pueda ejecutar tutorial1.iniciar()
-
+	//tutorial1.iniciar()
+	tutorial2.iniciar()
 	game.showAttributes(pepita) //Debug
-
 	game.start()
 }
