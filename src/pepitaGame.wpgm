@@ -10,7 +10,7 @@ program PepitaGame {
 	game.width(10)
 	//game.onTick(2000, "movimiento", {manzana.mover()}) Cambiar manzana de lugar infinitas veces.
 	game.boardGround("fondo2.jpg")
-	//tutorial1.iniciar()
+	//tutorial1.iniciar())
 	tutorial2.iniciar()
 	game.showAttributes(pepita) //Debug
 	game.start()
